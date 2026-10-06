@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <title>Vidhauler</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="vidhauler-popup">
+    <!-- Header -->
+    <header class="header">
+      <div class="brand">
+        <div class="tri-balls">
+          <div class="ball red"></div>
+          <div class="ball yellow"></div>
+          <div class="ball blue"></div>
+        </div>
+        <div>
+          <h1 class="logo-title">Vidhauler</h1>
+          <span class="sub-badge">v1.0 • Manifest V3</span>
+        </div>
+      </div>
+      <button id="btn-refresh" class="icon-btn" title="Pagina opnieuw scannen naar videostreams">
+        🔄
+      </button>
+    </header>
+
+    <!-- Status & Filters -->
+    <div class="status-bar">
+      <span id="streams-count" class="streams-count">Scannen naar video's...</span>
+      <div class="filters">
+        <button id="filter-all" class="filter-btn active">Alles</button>
+        <button id="filter-video" class="filter-btn">Video</button>
+        <button id="filter-audio" class="filter-btn">MP3</button>
+      </div>
+    </div>
+
+    <!-- Detected Streams List -->
+    <div id="streams-list" class="streams-list">
+      <div class="loading-state">
+        <div class="spinner"></div>
+        <p>Pagina analyseren op Canvas, Blackboard &amp; webvideo's...</p>
+      </div>
+    </div>
+
+    <!-- Smart Naming & Tip Footer -->
+    <footer class="footer">
+      <div class="tip-box">
+        <span>💡 <strong>Tip voor studenten:</strong> Speel het college even af (1 sec) als de stream nog niet direct zichtbaar is.</span>
+      </div>
+      <div class="footer-links">
+        <span id="version-tag">Vidhauler 2026</span>
+        <a href="https://vidhauler.net" target="_blank" class="link">Opties &amp; Help</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
