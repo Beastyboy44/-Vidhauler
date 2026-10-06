@@ -1,0 +1,20 @@
+# Privacy Policy for Vidhauler
+
+Last updated: October 6, 2026
+
+Vidhauler is committed to protecting user privacy.
+
+1. No Data Collection
+Vidhauler does not collect, store, or transmit any personal data, IP addresses, or browsing history. All operations run 100% locally on your computer.
+
+2. Permissions
+- downloads: Used solely to save detected media files directly to your Downloads folder upon clicking download.
+- storage: Used solely to cache media links for the current tab and store license entitlement status locally.
+- activeTab: Used solely to inspect the current active tab for media elements when you click the extension icon.
+- host_permissions: Used to scan educational portals (Canvas, Blackboard, Panopto, Kaltura) and web pages for media.
+
+3. Third-Party Services
+Vidhauler does not sell, rent, or share any user data with third parties. In compliance with Google Chrome Web Store policies, Vidhauler does not download videos from YouTube.
+
+4. Contact & Support
+For support and questions: https://github.com/Beastyboy44/-Vidhauler
